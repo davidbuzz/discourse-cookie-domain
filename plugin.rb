@@ -1,7 +1,7 @@
 # name: discourse cookie domain setup
-# about: modifications for Citizen forums
-# version: 0.1
-# authors: ntauthority
+# about: modifications for forums and stuff
+# version: 0.2
+# authors: ntauthority,davidbuzz
 
 load File.expand_path("../current_user_provider.rb", __FILE__)
 
