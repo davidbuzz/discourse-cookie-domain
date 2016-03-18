@@ -10,7 +10,7 @@ class ExCurrentUserProvider < Auth::DefaultCurrentUserProvider
   def log_off_user(session, cookies)
     super
 
-    cookies[TOKEN_COOKIX] = nil
+    cookies[TOKEN_COOKIX] = { value: '', httponly: true, domain: :all }
   end
 
 end
